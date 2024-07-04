@@ -64,8 +64,8 @@ document.getElementById('controlButton').addEventListener('click', function() {
 });
 
 async function init() {
-    const modelURL = 'https://teachablemachine.withgoogle.com/models/RtyMtYlXe/model.json';
-    const metadataURL = 'https://teachablemachine.withgoogle.com/models/RtyMtYlXe/metadata.json';
+    const modelURL = 'https://teachablemachine.withgoogle.com/models/aaaa/model.json';
+    const metadataURL = 'https://teachablemachine.withgoogle.com/models/aaaa/metadata.json';
 
     model = await tmImage.load(modelURL, metadataURL);
     maxPredictions = model.getTotalClasses();
